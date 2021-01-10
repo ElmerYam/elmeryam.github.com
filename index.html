@@ -1,256 +1,327 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>elmer Yam</title>
-    <!-- Bulma Version 0.8.x-->
-    <link rel="stylesheet" href="https://unpkg.com/bulma@0.8.0/css/bulma.min.css" />
-    <link rel="stylesheet" type="text/css" href="css/showcase.css" />
-    <link rel="icon" type="image/png" href="favicon.png" />
-  </head>
 
-  <body>
-    <!-- Begin Preloader -->
-    <div class="preloader-wrapper">
-      <div class="preloader">
-        <img src="img/preloader.gif" alt="" />
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Elmer Yam</title>
+  <!-- Bulma Version 0.8.x-->
+  <link rel="stylesheet" href="https://unpkg.com/bulma@0.8.0/css/bulma.min.css" />
+  <link rel="stylesheet" type="text/css" href="css/showcase.css"/>
+  <link rel="icon" type="image/png" href="favicon.png" />
+</head>
+
+<body>
+  <!-- Begin Preloader -->
+  <div class="preloader-wrapper">
+    <div class="preloader">
+      <img src="img/preloader.gif" alt="" />
+    </div>
+  </div>
+  <!-- End Preloader-->
+  <!-- Begin Scroll Up Button -->
+
+  <form action="#home">
+    <button id="toTop" title="Go to top">
+      <i class="fas fa-angle-up"></i>
+    </button>
+  </form>
+  <!-- End Scroll Up Button -->
+
+  <!-- Begin Header -->
+  <div class="header-wrapper" id="home">
+    <!-- Begin Hero -->
+    <section class="hero is-fullheight">
+      <!-- Begin Mobile Nav -->
+      <nav class="navbar is-transparent is-hidden-desktop">
+        <!-- Begin Burger Menu -->
+        <div class="navbar-brand">
+          <div class="navbar-burger burger" data-target="mobile-nav">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </div>
+        <!-- End Burger Menu -->
+        <div id="mobile-nav" class="navbar-menu">
+          <div class="navbar-end">
+            <div class="navbar-item">
+              <a class="navbar-item" href="#home">
+                Home
+              </a>
+            </div>
+            <div class="navbar-item">
+              <a class="navbar-item" href="#about-me">
+                Sobre mí
+              </a>
+            </div>
+            <div class="navbar-item">
+              <a class="navbar-item" href="#services">
+                Logros
+              </a>
+            </div>
+            <div class="navbar-item">
+              <a class="navbar-item" href="#skills">
+                Skills
+              </a>
+            </div>
+            <div class="navbar-item">
+              <a class="navbar-item" href="#my-work">
+                My Work
+              </a>
+            </div>
+            <div class="navbar-item">
+              <a class="navbar-item" href="#contact">
+                Contact
+              </a>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <!-- End Mobile Nav -->
+      <!-- Begin Hero Content-->
+      <div class="hero-body">
+        <div class="container has-text-centered">
+          <h1 class="subtitle">Hola, soy</h1>
+          <h2 class="title">Elmer Yam</h2>
+          <h1 class="subtitle profession">Ingeniero en Sistemas Computacionales</h1>
+        </div>
       </div>
-    </div>
-    <!-- End Preloader-->
-    <!-- Begin Scroll Up Button -->
-
-    <form action="#home">
-      <button id="toTop" title="Go to top">
-        <i class="fas fa-angle-up"></i>
-      </button>
-    </form>
-    <!-- End Scroll Up Button -->
-
-    <!-- Begin Header -->
-    <div class="header-wrapper" id="home">
-      <!-- Begin Hero -->
-      <section class="hero is-large">
-        <!-- Begin Mobile Nav -->
-        <nav class="navbar is-transparent is-hidden-desktop">
-          <!-- Begin Burger Menu -->
-          <div class="navbar-brand">
-            <div class="navbar-burger burger" data-target="mobile-nav">
-              <span></span>
-              <span></span>
-              <span></span>
-            </div>
-          </div>
-          <!-- End Burger Menu -->
-          <div id="mobile-nav" class="navbar-menu">
-            <div class="navbar-end">
-              <div class="navbar-item">
-                <a class="navbar-item" href="#home">
-                  Home
-                </a>
-              </div>
-              <div class="navbar-item">
-                <a class="navbar-item" href="#about-me">
-                  Sobre mí
-                </a>
-              </div>
-              <div class="navbar-item">
-                <a class="navbar-item" href="#services">
-                  Logros
-                </a>
-              </div>
-              <div class="navbar-item">
-                <a class="navbar-item" href="#skills">
-                  Skills
-                </a>
-              </div>
-              <div class="navbar-item">
-                <a class="navbar-item" href="#my-work">
-                  My Work
-                </a>
-              </div>
-              <div class="navbar-item">
-                <a class="navbar-item" href="#contact">
-                  Contact
-                </a>
-              </div>
-            </div>
-          </div>
-        </nav>
-        <!-- End Mobile Nav -->
-        <!-- Begin Hero Content-->
-        <div class="hero-body">
-          <div class="container has-text-centered">
-            <h1 class="subtitle">Hola, soy</h1>
-            <h2 class="title">Elmer Yam</h2>
-            <h1 class="subtitle profession">Ingeniero en Sistemas Computacionales</h1>
-          </div>
-        </div>
-        <!-- End Hero Content-->
-        <!-- Begin Hero Menu -->
-        <div class="hero-foot ">
-          <div class="hero-foot--wrapper">
-            <div class="columns">
-              <div class="column is-12 hero-menu-desktop has-text-centered">
-                <ul>
-                  <li class="is-active">
-                    <a href="#home">Home</a>
-                  </li>
-                  <li>
-                    <a href="#about-me">Sobre mí</a>
-                  </li>
-                  <li>
-                    <a href="#services">Logros</a>    
-                  </li>
-                  <li>
-                    <a href="#skills">Habilidades</a>
-                  </li>
-                  <li>
-                    <a href="#my-work"></a>
-                  </li>
-                  <li>
-                    <a href="#contact">Contacto</a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!-- End Hero Menu -->
-      </section>
-      <!-- End Hero -->
-    </div>
-    <!-- End Header -->
-
-    <!-- Begin Main Content -->
-    <div class="main-content">
-      <!-- Begin About Me Section -->
-      <div class="section-light about-me" id="about-me">
-        <div class="container">
-          <div class="column is-12 about-me">
-            <h1 class="title has-text-centered section-title">Sobre mí</h1>
-          </div>
-          <div class="columns is-multiline">
-            <div
-              class="column is-6 has-vertically-aligned-content"
-              data-aos="fade-right"
-            >
-              <p class="is-larger">
-                &emsp;&emsp;<strong
-                  >Soy egresado de la carrera 
-                  de Ingeniería en Sistemas Computacionales (Diciembre de 2019)
-                  del Instituto Tecnológico de Chetumal, 
-                  durante mi transcurso como estudiante adquirí conocimientos 
-                  en algunos lenguajes de programación al igual que habilidades de desarrollo 
-                  tanto web como movil. He colaborado con unos compañeros 
-                  en una Coordinación del Gobierno de Quintana Roo como desarrollador Web 
-                  con Frameworks como Django y Laravel y desarrollando aplicaciones moviles con Flutter .</strong
-                >
-              </p>
-              <br />
-              <br />
-              <div class="is-divider"></div>
-            </div>
-            <div class="column is-6 right-image " data-aos="fade-left">
-              <img
-                class="is-rounded"
-                src="img/me.jpeg"
-                alt="Elmer Yam"
-              />
-            </div>
-          </div>
+      <!-- End Hero Content-->
+      <!-- Begin Hero Menu -->
+      <div class="hero-foot ">
+        <div class="hero-foot--wrapper">
           <div class="columns">
-            <div class="column">
-              <p class="heading">
-                <strong>Telefono</strong>
-              </p>
-              <p class="subheading">
-                (983)836-9529
-              </p>
-            </div>
-            <div class="column">
-              <p class="heading">
-                <strong>Email</strong>
-              </p>
-              <p class="subheading">
-                elmeryam5@gmail.com
-              </p>
-            </div>
-            <div class="column">
-              <p class="heading">
-                <strong>GitHub</strong>
-              </p>
-              <p class="subheading">
-                github.com/ElmerYam
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- End About Me Content -->
-
-      <div class="section-dark resume">
-        <div class="container">
-          <div
-            class="columns is-multiline"
-            data-aos="fade-in"
-            data-aos-easing="linear"
-          >
-            <div class="column is-12 about-me">
-              <h1 class="title has-text-centered section-title">
-                Ver Curriculum vitae
-              </h1>
-            </div>
-            <div class="column is-10 has-text-centered is-offset-1">
-              <h2 class="subtitle">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et doloremagna aliqua
-              </h2>
-              <form action="example.docs">
-                <button class="button">
-                  Descargar CV&emsp;<i class="fad fa-download fa-lg"></i>
-                </button>
-              </form>
+            <div class="column is-12 hero-menu-desktop has-text-centered">
+              <ul>
+                <li class="is-active">
+                  <a href="#home">Home</a>
+                </li>
+                <li>
+                  <a href="#about-me">Sobre mí</a>
+                </li>
+                <li>
+                  <a href="#skills">Habilidades</a>
+                </li>
+                <li>
+                  <a href="#my-work">Portafolio</a>
+                </li>
+                <li>
+                  <a href="#services">Logros</a>
+                </li>
+                <!--
+                <li>
+                  <a href="#contact">Contacto</a>
+                </li>
+                -->
+              </ul>
             </div>
           </div>
         </div>
       </div>
-      <!-- Begin Services Content -->
-      <div class="section-color services" id="services">
-        <div class="container">
-          <div class="columns is-multiline">
-            <div
-              class="column is-12 about-me"
-              data-aos="fade-in"
-              data-aos-easing="linear"
-            >
-              <h1 class="title has-text-centered section-title">Mis logros</h1>
+      <!-- End Hero Menu -->
+    </section>
+    <!-- End Hero -->
+  </div>
+  <!-- End Header -->
 
-              <h2 class="subtitle">
-                A lo largo de mi carrera participe en varios concursos de programación unos 
-                de los mas importantes son ...
+  <!-- Begin Main Content -->
+  <div class="main-content">
+    <!-- Begin About Me Section -->
+    <div class="section-light about-me" id="about-me">
+      <div class="container">
+        <div class="column is-12 about-me">
+          <h1 class="title has-text-centered section-title">Sobre mí</h1>
+        </div>
+        <div class="columns is-multiline">
+          <div class="column is-6 has-vertically-aligned-content" data-aos="fade-right">
+            <p class="is-larger">
+              &emsp;&emsp;<strong>Soy egresado de la carrera
+                de Ingeniería en Sistemas Computacionales (Diciembre de 2019)
+                del Instituto Tecnológico de Chetumal,
+                durante mi transcurso como estudiante adquirí conocimientos
+                en algunos lenguajes de programación al igual que habilidades de desarrollo
+                tanto web como movil. He colaborado con unos compañeros
+                en una Coordinación del Gobierno de Quintana Roo como desarrollador Web
+                con Frameworks como Django y Laravel y desarrollando aplicaciones moviles con Flutter .</strong>
+            </p>
+            <br />
+            <br />
+            <div class="is-divider"></div>
+          </div>
+          <div class="column is-6 right-image " data-aos="fade-left">
+            <img class="is-rounded" src="img/me.jpeg" alt="Elmer Yam" />
+          </div>
+        </div>
+        <div class="columns">
+          <div class="column">
+            <p class="heading">
+              <strong>Telefono</strong>
+            </p>
+            <p class="subheading">
+              (983)836-9529
+            </p>
+          </div>
+          <div class="column">
+            <p class="heading">
+              <strong>Email</strong>
+            </p>
+            <p class="subheading">
+              elmeryam5@gmail.com
+            </p>
+          </div>
+          <div class="column">
+            <p class="heading">
+              <strong>GitHub</strong>
+            </p>
+            <p class="subheading">
+              github.com/ElmerYam
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End About Me Content -->
+    <div class="section-dark resume">
+      <div class="container">
+        <div class="columns is-multiline" data-aos="fade-in" data-aos-easing="linear">
+          <div class="column is-12 about-me">
+            <h1 class="title has-text-centered section-title">
+              Ver Curriculum vitae
+            </h1>
+          </div>
+          <div class="column is-10 has-text-centered is-offset-1">
+            <form action="docs/elmercv.pdf">
+              <button class="button">
+                Descargar CV&emsp;<i class="fad fa-download fa-lg"></i>
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Begin Skills Content -->
+    <div class="section-light skills" id="skills">
+      <div class="container">
+        <div class="columns is-multiline">
+          <div class="column is-12 about-me">
+            <h1 class="title has-text-centered section-title">Habilidades</h1>
+          </div>
+          <div class="column is-6" data-aos="fade-in" data-aos-easing="linear">
+            <h1>HTML</h1>
+            <progress class="progress" value="70" max="100">80%</progress>
+            <h1>CSS</h1>
+            <progress class="progress" value="70" max="100">30%</progress>
+            <h1>Java Script</h1>
+            <progress class="progress" value="65" max="100">45%</progress>
+            <h1>Php</h1>
+            <progress class="progress" value="60" max="100">60%</progress>
+            <h1>Python</h1>
+            <progress class="progress" value="70" max="100">60%</progress>
+            <h1>Java</h1>
+            <progress class="progress" value="80" max="100">60%</progress>
+            <h1>Dart</h1>
+            <progress class="progress" value="80" max="100">60%</progress>
+          </div>
+          <div class="column is-6" data-aos="fade-in" data-aos-easing="linear">
+            <h1>Django</h1>
+            <progress class="progress" value="85" max="100">30%</progress>
+            <h1>Flutter</h1>
+            <progress class="progress" value="80" max="100">30%</progress>
+            <h1>Node.js</h1>
+            <progress class="progress" value="85" max="100">45%</progress>
+            <h1>Laravel</h1>
+            <progress class="progress" value="60" max="100">60%</progress>
+            <h1>MySql</h1>
+            <progress class="progress" value="65" max="100">60%</progress>
+            <h1>MongoDB</h1>
+            <progress class="progress" value="60" max="100">60%</progress>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Skills Content -->
+    <!-- Begin Work Content-->
+    <div class="section-dark my-work" id="my-work">
+      <div class="container">
+        <div class="columns is-multiline" data-aos="fade-in" data-aos-easing="linear">
+          <div class="column is-12">
+            <h1 class="title has-text-centered section-title">Portafolio</h1>
+          </div>
+          <div class="column is-3">
+            <a href="#">
+              <figure class="image is-2by1 work-item"
+                style="background-image: url('https://picsum.photos/320/180?image=0');"></figure>
+            </a>
+          </div>
+          <div class="column is-3">
+            <a href="#">
+              <figure class="image is-2by1 work-item"
+                style="background-image: url('https://picsum.photos/320/180?image=10');"></figure>
+            </a>
+          </div>
+          <div class="column is-3">
+            <a href="#">
+              <figure class="image is-2by1 work-item" style="background-image: url('img/comedatos.jpg');"></figure>
+            </a>
+          </div>
+          <div class="column is-3">
+            <a href="#">
+              <figure class="image is-2by1 work-item" style="background-image: url('img/comedatos.jpg');"></figure>
+            </a>
+          </div>
+          <div class="column is-3">
+            <a href="#">
+              <figure class="image is-2by1 work-item" style="background-image: url('img/me.jpeg');"></figure>
+            </a>
+          </div>
+          <div class="column is-3">
+            <a href="#">
+              <figure class="image is-2by1 work-item" style="background-image: url('img/me.jpeg');"></figure>
+            </a>
+          </div>
+          <div class="column is-3">
+            <a href="#">
+              <figure class="image is-2by1 work-item"
+                style="background-image: url('https://picsum.photos/320/180?image=60');"></figure>
+            </a>
+          </div>
+          <div class="column is-3">
+            <a href="#">
+              <figure class="image is-2by1 work-item"
+                style="background-image: url('https://picsum.photos/320/180?image=70');"></figure>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--End Work Content -->
+    <!-- Begin Services Content -->
+    <div class="section-color services" id="services">
+      <div class="container">
+        <div class="columns is-multiline">
+          <div class="column is-12 about-me" data-aos="fade-in" data-aos-easing="linear">
+            <h1 class="title has-text-centered section-title">Mis logros</h1>
+
+            <h2 class="subtitle">
+              A lo largo de mi carrera participe en varios concursos de programación unos
+              de los mas importantes son ...
+            </h2>
+            <br />
+          </div>
+          <div class="columns is-12">
+            <div class="column is-4 has-text-centered" data-aos="fade-in" data-aos-easing="linear">
+              <img class="is-rounded" src="img/comedatos.jpg" alt="Come datos" />
+              <hr />
+              <h2>
+                Concurso “Hackatón: Come datos” concurso organisado por el Gobierno del
+                estado de Quintana Roo donde se ganó el segundo
+                lugar con la aplicacion movil "InfoSalud".
               </h2>
-              <br />
             </div>
-            <div class="columns is-12">
-              <div
-                class="column is-4 has-text-centered"
-                data-aos="fade-in"
-                data-aos-easing="linear"
-              >
-              <img
-              class="is-rounded"
-              src="img/comedatos.jpg"
-              alt="Come datos"/>
-                <hr />
-                <h2>
-                  Concurso “Hackatón: Come datos” concurso organisado por el Gobierno del 
-                  estado de Quintana Roo donde se ganó el segundo 
-                  lugar con la aplicacion movil "InfoSalud".
-                </h2>
-              </div>
-              <!--
+            <!--
               <div
                 class="column is-4 has-text-centered"
                 data-aos="fade-in"
@@ -319,180 +390,42 @@
           </div>
         </div>
       </div>
+    </div>
       <!-- End Services Content -->
-      <!-- Begin Skills Content -->
       
-      <div class="section-light skills" id="skills">
-        <div class="container">
-          <div class="columns is-multiline">
-            <div class="column is-12 about-me">
-              <h1 class="title has-text-centered section-title">Habilidades</h1>
-            </div>
-            <div
-              class="column is-6"
-              data-aos="fade-in"
-              data-aos-easing="linear"
-            >
-              <h1>Adobe Experience Design</h1>
-              <progress class="progress" value="70" max="100">30%</progress>
-              <h1>Adobe After Effects</h1>
-              <progress class="progress" value="65" max="100">30%</progress>
-              <h1>Visual Studio Code</h1>
-              <progress class="progress" value="58" max="100">45%</progress>
-              <h1>Sketch</h1>
-              <progress class="progress" value="90" max="100">60%</progress>
-            </div>
-            <div
-              class="column is-6"
-              data-aos="fade-in"
-              data-aos-easing="linear"
-            >
-              <h1>HTML</h1>
-              <progress class="progress" value="85" max="100">30%</progress>
-              <h1>CSS</h1>
-              <progress class="progress" value="95" max="100">30%</progress>
-              <h1>VueJS</h1>
-              <progress class="progress" value="70" max="100">45%</progress>
-              <h1>React</h1>
-              <progress class="progress" value="60" max="100">60%</progress>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- End Skills Content -->
-      <!-- Begin Work Content-->
-      <div class="section-dark my-work" id="my-work">
-        <div class="container">
-          <div
-            class="columns is-multiline"
-            data-aos="fade-in"
-            data-aos-easing="linear"
-          >
-            <div class="column is-12">
-              <h1 class="title has-text-centered section-title">My Work</h1>
-            </div>
-            <div class="column is-3">
-              <a href="#">
-                <figure
-                  class="image is-2by1 work-item"
-                  style="background-image: url('https://picsum.photos/320/180?image=0');"
-                ></figure>
-              </a>
-            </div>
-            <div class="column is-3">
-              <a href="#">
-                <figure
-                  class="image is-2by1 work-item"
-                  style="background-image: url('https://picsum.photos/320/180?image=10');"
-                ></figure>
-              </a>
-            </div>
-            <div class="column is-3">
-              <a href="#">
-                <figure
-                  class="image is-2by1 work-item"
-                  style="background-image: url('img/comedatos.jpg');"
-                ></figure>
-              </a>
-            </div>
-            <div class="column is-3">
-              <a href="#">
-                <figure
-                  class="image is-2by1 work-item"
-                  style="background-image: url('img/comedatos.jpg');"
-                ></figure>
-              </a>
-            </div>
-            <div class="column is-3">
-              <a href="#">
-                <figure
-                  class="image is-2by1 work-item"
-                  style="background-image: url('img/me.jpeg');"
-                ></figure>
-              </a>
-            </div>
-            <div class="column is-3">
-              <a href="#">
-                <figure
-                  class="image is-2by1 work-item"
-                  style="background-image: url('img/me.jpeg');"
-                ></figure>
-              </a>
-            </div>
-            <div class="column is-3">
-              <a href="#">
-                <figure
-                  class="image is-2by1 work-item"
-                  style="background-image: url('https://picsum.photos/320/180?image=60');"
-                ></figure>
-              </a>
-            </div>
-            <div class="column is-3">
-              <a href="#">
-                <figure
-                  class="image is-2by1 work-item"
-                  style="background-image: url('https://picsum.photos/320/180?image=70');"
-                ></figure>
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!--End Work Content -->
-      <!-- Begin Contact Content-->
+      <!-- Begin Contact Content
       <div class="section-light contact" id="contact">
         <div class="container">
-          <div
-            class="columns is-multiline"
-            data-aos="fade-in-up"
-            data-aos-easing="linear"
-          >
+          <div class="columns is-multiline" data-aos="fade-in-up" data-aos-easing="linear">
             <div class="column is-12 about-me">
               <h1 class="title has-text-centered section-title">
                 Contacto
               </h1>
             </div>
             <div class="column is-8 is-offset-2">
-              <form
-                action="https://formspree.io/email@example.com"
-                method="POST"
-              >
+              <form action="https://formspree.io/email@example.com" method="POST">
                 <div class="field">
-                  <label class="label">Name</label>
+                  <label class="label">Nombre</label>
                   <div class="control has-icons-left">
-                    <input
-                      class="input"
-                      type="text"
-                      placeholder="Ex. Jane Smith"
-                      name="Name"
-                    />
+                    <input class="input" type="text" placeholder="Jorge Tosca" name="Name" />
                     <span class="icon is-small is-left">
                       <i class="fas fa-user"></i>
                     </span>
                   </div>
                 </div>
                 <div class="field">
-                  <label class="label">Email</label>
+                  <label class="label">Correo</label>
                   <div class="control has-icons-left">
-                    <input
-                      class="input"
-                      type="email"
-                      placeholder="Ex. hello@arctheme.com"
-                      name="Email"
-                    />
+                    <input class="input" type="email" placeholder="jorgetosca@gmail.com" name="Email" />
                     <span class="icon is-small is-left">
                       <i class="fas fa-envelope"></i>
                     </span>
                   </div>
                 </div>
                 <div class="field">
-                  <label class="label">Message</label>
+                  <label class="label">Mensaje</label>
                   <div class="control">
-                    <textarea
-                      class="textarea"
-                      placeholder="Textarea"
-                      name="Message"
-                    ></textarea>
+                    <textarea class="textarea" placeholder="Textarea" name="Message"></textarea>
                   </div>
                 </div>
                 <div class="field">
@@ -508,7 +441,7 @@
           </div>
         </div>
       </div>
-    <!--End Contact Content -->
+      <!--End Contact Content -->
     </div>
     <!-- End Main Content -->
 
@@ -528,5 +461,6 @@
         duration: 800,
       });
     </script>
-  </body>
+</body>
+
 </html>
