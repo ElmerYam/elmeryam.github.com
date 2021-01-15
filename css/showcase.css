@@ -152,6 +152,13 @@ html {
   box-shadow: 0 5px 20px rgba(14, 25, 80, 0.3);
 }
 
+.work-item-title{
+  background-color: rgba(67, 72, 92, 0.75);
+  color: white;
+  text-align: center;
+  border-radius: 5px;
+}
+
 .main-content .section-dark.my-work .work-item:hover {
   -webkit-transform: scale(1.055) translateY(-2px);
   transform: scale(1.055) translateY(-2px);
